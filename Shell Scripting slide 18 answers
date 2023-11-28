@@ -1,0 +1,5 @@
+cd ~/ 
+ls -al
+touch my_command_history.txt 
+history > my_command_history.txt  
+scp my_command_history.txt dipakpandit@10.211.55.5:/tmp
